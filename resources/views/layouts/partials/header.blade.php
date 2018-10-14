@@ -1,6 +1,3 @@
-<!-- <div class="advertisement">
-    공생 제품 [잇쉬&잇샤] 크라우드 펀딩 모집 !
-</div> -->
 <header class="mainHeader">
     <nav>
         <div class="logo">
@@ -12,7 +9,7 @@
             <li class="productLi">
                 <a href="/products">PRODUCT</a>
             </li>
-            <li><a href="/surveys">SURVEY</a></li>
+            <!-- <li><a href="/surveys">SURVEY</a></li> -->
         </ul>
     </nav>
     <script>

@@ -108,6 +108,11 @@
     </div>
 </div>
 <script>
+    function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
+
     $('#move_contact').click(function() {
         var offset = $('.contactUs').offset();
 
@@ -115,10 +120,25 @@
     });
 
     $('#mail_submit').click(function() {
-        alert("문의를 성공적으로 완료했습니다.");
         var name = $('#contact_name').val();
         var email = $('#contact_email').val();
         var message = $('#contact_message').val();
+        if(!name) {
+            alert("이름을 입력해주세요.");
+            return false;
+        }
+
+        if(!validateEmail(email)) {
+            alert("이메일을 확인해주세요.");
+            return false;
+        }
+
+        if(!message) {
+            alert("문의 메시지를 입력해주세요.");
+            return false;
+        }
+
+        alert("문의를 성공적으로 완료했습니다.");
 
         $.ajaxSetup({
            headers: {

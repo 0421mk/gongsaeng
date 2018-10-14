@@ -32,30 +32,34 @@ Route::get('/aboutUs', [
 ]);
 
 //sureveys
-Route::resource('/surveys', 'surveyController');
-Route::post('/surveys/HowTypeACount', [
-    'as' => 'surveysHowTypeACount',
-    'uses' => 'surveyController@HowTypeACount'
-]);
-Route::post('/surveys/ajaxControl', [
-    'as' => 'surveysAjaxControl',
-    'uses' => 'surveyController@ajaxControl'
-]);
-Route::post('/surveys/{survey}', [
-    'as' => 'surveysPost',
-    'uses' => 'surveyController@surveysPost'
-]);
-Route::get('/graphs', [
-    'as' => 'surveys.graph',
-    'uses' => 'surveyController@graph'
-]);
-Route::get('/graphs/{graph}', [
-    'as' => 'surveys.show',
-    'uses' => 'surveyController@graphId'
-]);
+// Route::resource('/surveys', 'surveyController');
+// Route::post('/surveys/HowTypeACount', [
+//     'as' => 'surveysHowTypeACount',
+//     'uses' => 'surveyController@HowTypeACount'
+// ]);
+// Route::post('/surveys/ajaxControl', [
+//     'as' => 'surveysAjaxControl',
+//     'uses' => 'surveyController@ajaxControl'
+// ]);
+// Route::post('/surveys/{survey}', [
+//     'as' => 'surveysPost',
+//     'uses' => 'surveyController@surveysPost'
+// ]);
+// Route::get('/graphs', [
+//     'as' => 'surveys.graph',
+//     'uses' => 'surveyController@graph'
+// ]);
+// Route::get('/graphs/{graph}', [
+//     'as' => 'surveys.show',
+//     'uses' => 'surveyController@graphId'
+// ]);
 
 //mail
 Route::post('/send/email', [
     'as' => 'sendEmail',
     'uses' => 'mainController@mail'
 ]);
+
+// Auth::routes();
+//
+// Route::get('/home', 'HomeController@index')->name('home');

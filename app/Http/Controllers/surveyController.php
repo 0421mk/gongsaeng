@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\survey_type;
 use App\survey;
+use App\Http\Controllers\Auth;
 use DB;
 
 class surveyController extends Controller
@@ -18,7 +19,6 @@ class surveyController extends Controller
 
     public function create()
     {
-        // return __METHOD__ . ' show form to push datas to DB';
         return view('surveys.create');
     }
 
@@ -221,9 +221,9 @@ class surveyController extends Controller
         $survey = new survey();
 
         $survey->sId = $stId;
-        $survey->userName = "test";
+        $survey->userName = "gongsaeng";
         $survey->userNumber = "test";
-        $survey->userEmail = "test";
+        $survey->userEmail = "0421mk@gmail.com";
         $survey->answerValue = $answerValue;
 
         $survey->save();
