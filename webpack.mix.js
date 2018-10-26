@@ -19,10 +19,5 @@ let mix = require('laravel-mix');
      ]
  });
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
-
-mix.js('resources/assets/js/main/app.js', 'public/js/main')
-   .sass('resources/assets/sass/main/style.scss', 'public/css/main');
-
-mix.sass('resources/assets/sass/main/fonts.scss', 'public/css/main');
+mix.sass('resources/assets/sass/main/style.scss', 'public/css/main')
+   .sass('resources/assets/sass/main/fonts.scss', 'public/css/main');
