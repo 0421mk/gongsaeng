@@ -162,27 +162,8 @@
   unicode-range: U+4E00-9F95,U+F900-FA0B;
 }
 
-// bohyun
-@font-face {
-    font-family: 'BMDOHYEON';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'BMDOHYEON';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
-    font-weight: 100;
-    font-style: 100;
-}
-
-// BMYEONSUNG
-@font-face {
-    font-family: 'GyeonggiBatang';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+// 나눔명조
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 
 // FontAwesome
 @font-face {

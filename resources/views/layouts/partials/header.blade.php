@@ -1,15 +1,17 @@
 <header class="mainHeader">
     <nav>
         <div class="logo">
-            <a href="/"><img src="{{ asset('img/gongsaeng.png') }}" alt=""></a>
+            <a href="/"><img src="{{ asset('img/gongsaeng.png') }}" alt="공생 logo gongsaeng"></a>
         </div>
         <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="/aboutUs">ABOUT US</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/aboutUs">About Us</a></li>
             <li class="productLi">
-                <a href="/products">PRODUCT</a>
+                <a href="/products">Product</a>
             </li>
-            <!-- <li><a href="/surveys">SURVEY</a></li> -->
+            <li><a href="/notice">Notice</a></li>
+            <li><a href="/story">Story</a></li>
+            <li><a href="/mou">Mou</a></li>
         </ul>
     </nav>
     <script>

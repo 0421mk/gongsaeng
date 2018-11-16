@@ -12,9 +12,9 @@
 </div>
 <div class="companyDes">
     <div class="inBox">
-        <img src="{{ asset('img/main/spoon.png') }}" alt="" class="spoon">
+        <img src="{{ asset('img/main/spoon.png') }}" alt="유니버설 디자인 스푼" class="spoon">
         <div class="vision">
-            <img src="{{ asset('img/main/vision.png') }}" alt="">
+            <img src="{{ asset('img/main/vision.png') }}" alt="공생 비전">
             <div class="container">
                 <div class="title">
                     VISION
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="plan">
-            <img src="{{ asset('img/main/plan.png') }}" alt="">
+            <img src="{{ asset('img/main/plan.png') }}" alt="공생 계획">
             <div class="container">
                 <div class="title">
                     PLAN
@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="message">
-            <img src="{{ asset('img/main/message.png') }}" alt="">
+            <img src="{{ asset('img/main/message.png') }}" alt="공생 메시지">
             <div class="container">
                 <div class="title">
                     MESSAGE
@@ -78,14 +78,14 @@
         </div>
         <div class="contents">
             <ul>
-                <li><img src="{{ asset('img/main/products_1.png') }}" alt=""></li>
-                <li><img src="{{ asset('img/main/products_2.png') }}" alt=""></li>
-                <li><img src="{{ asset('img/main/products_3.png') }}" alt=""></li>
+                <li><img src="{{ asset('img/main/products_1.png') }}" alt="공생 유니버설 디자인 제품 1"></li>
+                <li><img src="{{ asset('img/main/products_2.png') }}" alt="공생 유니버설 디자인 제품 2"></li>
+                <li><img src="{{ asset('img/main/products_3.png') }}" alt="공생 유니버설 디자인 제품 3"></li>
             </ul>
             <ul>
-                <li><img src="{{ asset('img/main/products_4.png') }}" alt=""></li>
-                <li><img src="{{ asset('img/main/products_5.png') }}" alt=""></li>
-                <li><img src="{{ asset('img/main/products_6.png') }}" alt=""></li>
+                <li><img src="{{ asset('img/main/products_4.png') }}" alt="공생 유니버설 디자인 제품 4"></li>
+                <li><img src="{{ asset('img/main/products_5.png') }}" alt="공생 유니버설 디자인 제품 5"></li>
+                <li><img src="{{ asset('img/main/products_6.png') }}" alt="공생 유니버설 디자인 제품 6"></li>
             </ul>
         </div>
     </div>

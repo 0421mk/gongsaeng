@@ -31,6 +31,56 @@ Route::get('/aboutUs', [
     'uses' => 'aboutController@index'
 ]);
 
+//article
+Route::get('/article/check', [
+    'as' => 'articleCheck',
+    'uses' => 'articleController@hiddenWrite'
+]);
+Route::get('/article/success', [
+    'as' => 'articleSuccess',
+    'uses' => 'articleController@success'
+]);
+Route::post('/article/create', [
+    'as' => 'articleCreate',
+    'uses' => 'articleController@create'
+]);
+Route::post('/article/createPerform', [
+    'as' => 'articleCreatePerform',
+    'uses' => 'articleController@createPerform'
+]);
+Route::get('/notice', [
+    'as' => 'articleNotice',
+    'uses' => 'articleController@notice'
+]);
+Route::get('/story', [
+    'as' => 'articleStory',
+    'uses' => 'articleController@story'
+]);
+Route::get('/mou', [
+    'as' => 'articleMou',
+    'uses' => 'articleController@mou'
+]);
+Route::get('/notice/{id}', [
+     'uses' => 'articleController@detail'
+]);
+Route::get('/story/{id}', [
+     'uses' => 'articleController@detail'
+]);
+Route::get('/mou/{id}', [
+     'uses' => 'articleController@detail'
+]);
+Route::get('/{category}/{id}/del', [
+     'uses' => 'articleController@delete'
+]);
+Route::get('/{category}/{id}/update', [
+     'uses' => 'articleController@update'
+]);
+Route::post('/article/update', [
+    'uses' => 'articleController@updateEx'
+]);
+Route::post('/article/updatePerform', [
+    'uses' => 'articleController@updatePerform'
+]);
 //sureveys
 // Route::resource('/surveys', 'surveyController');
 // Route::post('/surveys/HowTypeACount', [

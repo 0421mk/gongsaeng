@@ -3,7 +3,7 @@
 @section('content')
 <div class="productsIndex">
     <div class="intro">
-        <img src="{{ asset('/img/product/first.png') }}" alt="">
+        <img src="{{ asset('/img/product/first.png') }}" alt="공생 유니버설 디자인 제품 1 잇쉬와 잇샤">
         <div class="text">
             <p class="main">
                 유아부터 어르신, 장애인까지 모두가 사용편리한
@@ -44,7 +44,7 @@
         </div>
     </div>
     <div class="banner">
-        <img src="{{ asset('/img/product/second.png') }}" alt="">
+        <img src="{{ asset('/img/product/second.png') }}" alt="공생 유니버설 디자인 제품 2 잇쉬와 잇샤">
     </div>
     <div class="titleTxt">
         <h1>제품 소개</h1>
@@ -61,9 +61,9 @@
 3. 스푼과 포크의 크기는 일반 어른용보다 작으므로, 입이 작은 사람과 어린 아이도 사용할 수 있습니다.
         </h2>
         <div class="imgWrap">
-            <img src="{{ asset('/img/product/1_1.jpg') }}" alt="">
-            <img src="{{ asset('/img/product/1_2.jpg') }}" alt="">
-            <img src="{{ asset('/img/product/1_3.jpg') }}" alt="">
+            <img src="{{ asset('/img/product/1_1.jpg') }}" alt="공생 유니버설 디자인 제품 1_1 잇쉬와 잇샤">
+            <img src="{{ asset('/img/product/1_2.jpg') }}" alt="공생 유니버설 디자인 제품 1_2 잇쉬와 잇샤">
+            <img src="{{ asset('/img/product/1_3.jpg') }}" alt="공생 유니버설 디자인 제품 1_3 잇쉬와 잇샤">
             <a href="#More" class="moreBtn">제품 더 보기</a>
         </div>
     </div>
@@ -75,9 +75,9 @@
 3. 스푼과 포크의 크기는 일반 어른용보다 작으므로, 입이 작은 사람과 어린 아이도 사용할 수 있습니다.
         </h2>
         <div class="imgWrap">
-            <img src="{{ asset('/img/product/2_1.jpg') }}" alt="">
-            <img src="{{ asset('/img/product/2_2.jpg') }}" alt="">
-            <img src="{{ asset('/img/product/2_3.jpg') }}" alt="">
+            <img src="{{ asset('/img/product/2_1.jpg') }}" alt="공생 유니버설 디자인 제품 2_1 잇쉬와 잇샤">
+            <img src="{{ asset('/img/product/2_2.jpg') }}" alt="공생 유니버설 디자인 제품 2_2 잇쉬와 잇샤">
+            <img src="{{ asset('/img/product/2_3.jpg') }}" alt="공생 유니버설 디자인 제품 2_3 잇쉬와 잇샤">
             <a href="#More" class="moreBtn">제품 더 보기</a>
         </div>
     </div>
@@ -89,9 +89,9 @@
 3. 스푼과 포크의 크기는 일반 어른용보다 작으므로, 입이 작은 사람과 어린 아이도 사용할 수 있습니다.
         </h2>
         <div class="imgWrap">
-            <img src="{{ asset('/img/product/3_1.jpg') }}" alt="">
-            <img src="{{ asset('/img/product/3_2.jpg') }}" alt="">
-            <img src="{{ asset('/img/product/3_3.jpg') }}" alt="">
+            <img src="{{ asset('/img/product/3_1.jpg') }}" alt="공생 유니버설 디자인 제품 3_1 잇쉬와 잇샤">
+            <img src="{{ asset('/img/product/3_2.jpg') }}" alt="공생 유니버설 디자인 제품 3_2 잇쉬와 잇샤">
+            <img src="{{ asset('/img/product/3_3.jpg') }}" alt="공생 유니버설 디자인 제품 3_3 잇쉬와 잇샤">
             <a href="#More" class="moreBtn">제품 더 보기</a>
         </div>
     </div>
